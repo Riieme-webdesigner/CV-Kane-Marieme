@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Marieme Kane</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            margin-top: 10px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .experience, .project {
+            margin-bottom: 20px;
+        }
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        .skill-category h4 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Kane Marieme</h1>
+        <div class="subtitle">Étudiante en Ingénierie Génie Électrique – Spécialisation Electrotechnique – Electronique de puissance</div>
+        <div class="contact-info">
+            riieme64@gmail.com · Téléphone : 788782656
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Profil</h2>
+        <p>Étudiante en dernière année d'ingénierie en génie électrique, spécialisée en électrotechnique et électronique de puissance. Expérience concrète en audit énergétique (Senelec, Africome). Intérêt marqué pour la transformation digitale et l'agritech.</p>
+    </div>
+
+    <div class="section">
+        <h2>Formation</h2>
+        <div class="experience">
+            <h3>Diplôme d'Ingénieur en Génie Électrique</h3>
+            <div class="date">UNIVERSITE INTERNATIONALE DE CASABLANCA, Casablanca | 2022 – 2025 (prévu)</div>
+            <ul>
+                <li>Spécialisation/Majeure : Electrotechnique, Electronique de puissance</li>
+                <li>Modules clés : Réseaux électriques, Machine Learning appliqué, Gestion de projet, Audit énergétique, Système Photovoltaïques, énergies renouvelables</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Classes préparatoires</h3>
+            <div class="date">Ibn GHAZI Rabat Maroc | 2 ans</div>
+            <ul>
+                <li>Spécialisation : Mathématiques, Physique, Sciences industrielles (MPSI) 1ère année</li>
+                <li>Spécialisation : Maths, Physique 2ᵉ année</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Diplôme Baccalauréat Série S1 (Maths-Physique)</h3>
+            <div class="date">Lycée John Kennedy Dakar Senegal</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Expériences Professionnelles & Stages</h2>
+        <div class="experience">
+            <h3>Stage Ingénieur en Génie Électrique - Audit énergétique Senelec CKG</h3>
+            <div class="date">Senelec, Dakar | juin 2024 – décembre 2024</div>
+            <ul>
+                <li>Analyse des besoins et objectifs</li>
+                <li>Collecte de données et étude des consommations énergétiques</li>
+                <li>Prédiagnostique</li>
+                <li>Diagnostic approfondie</li>
+                <li>Proposition de solutions</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Stage Ingénieur en Génie Électrique - Audit énergétique AFRICOME</h3>
+            <ul>
+                <li>Analyse des besoins et objectifs</li>
+                <li>Collecte de données et étude des consommations énergétiques</li>
+                <li>Audit énergétique</li>
+                <li>Proposition de solutions</li>
+                <li>Mise en place des solutions</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projets (Académiques & Personnels)</h2>
+        <div class="project">
+            <h3>Projet AGRI-SN – Production & Commercialisation de Maralfalfa</h3>
+            <div class="date">2025 – en cours</div>
+            <ul>
+                <li>Lancement d'un projet agricole axé sur la culture de la Maralfalfa, une plante fourragère à fort rendement nutritif pour l'élevage (bovins, ovins, caprins)</li>
+                <li>Mise en culture d'un hectare, aménagement d'un système d'irrigation autonome (bassin + moto-pompe)</li>
+                <li>Site web : <a href="http://www.agri.sn" target="_blank">www.agri.sn</a></li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Projet Digital – Plateforme de Sites Web Préfabriqués</h3>
+            <div class="date">2025 – en cours</div>
+            <ul>
+                <li>Conception d'une solution digitale pour la création rapide de sites web sans codage, destinée aux petites entreprises et porteurs de projets</li>
+                <li>Développement de modèles de sites personnalisables et d'un service clé-en-main pour les non-initiés au digital</li>
+                <li>Finalisation en cours du site: <a href="http://www.riiemedigital.com" target="_blank">www.riiemedigital.com</a></li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Projet Académique : Réalisation d'une voiture intelligente suiveur de ligne et détecteur d'obstacles</h3>
+            <div class="date">2024</div>
+            <ul>
+                <li>Etude et conception</li>
+                <li>Simulation avec Proteus, Arduino, MATLAB</li>
+                <li>Réalisation physique du projet</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Compétences Techniques</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h4>Ingénierie</h4>
+                <ul>
+                    <li>Automatisation</li>
+                    <li>MATLAB/Simulink</li>
+                    <li>AutoCAD Electrical</li>
+                    <li>TIA Portal (Step 7)</li>
+                    <li>ISIS Proteus</li>
+                    <li>Caneco BT</li>
+                    <li>Catia V5</li>
+                    <li>Voltsoft</li>
+                    <li>RETScreen</li>
+                    <li>PVSyst 8.0.0</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Bureautique & outils visuels</h4>
+                <ul>
+                    <li>MS Office (Excel, Word, PowerPoint)</li>
+                    <li>Canva (création de supports visuels)</li>
+                    <li>Evernote</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Programmation</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Gestion de projet</h4>
+                <ul>
+                    <li>MS Project</li>
+                    <li>Notion (organisation, suivi de tâches)</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Langues</h4>
+                <ul>
+                    <li>Français (langue maternelle)</li>
+                    <li>Anglais (Niveau B1)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
